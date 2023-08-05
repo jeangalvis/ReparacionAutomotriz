@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/arteN01-035/Desktop/jean/ReparacionAutomotriz/ReparacionAutomotriz/ReparacionAutomotriz.csproj": {}
+    "C:\\Users\\Jean\\Desktop\\campus\\skills\\j4\\ReparacionAutomotriz\\ReparacionAutomotriz\\ReparacionAutomotriz.csproj": {}
   },
   "projects": {
-    "/home/arteN01-035/Desktop/jean/ReparacionAutomotriz/ReparacionAutomotriz/ReparacionAutomotriz.csproj": {
+    "C:\\Users\\Jean\\Desktop\\campus\\skills\\j4\\ReparacionAutomotriz\\ReparacionAutomotriz\\ReparacionAutomotriz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/arteN01-035/Desktop/jean/ReparacionAutomotriz/ReparacionAutomotriz/ReparacionAutomotriz.csproj",
+        "projectUniqueName": "C:\\Users\\Jean\\Desktop\\campus\\skills\\j4\\ReparacionAutomotriz\\ReparacionAutomotriz\\ReparacionAutomotriz.csproj",
         "projectName": "ReparacionAutomotriz",
-        "projectPath": "/home/arteN01-035/Desktop/jean/ReparacionAutomotriz/ReparacionAutomotriz/ReparacionAutomotriz.csproj",
-        "packagesPath": "/home/arteN01-035/.nuget/packages/",
-        "outputPath": "/home/arteN01-035/Desktop/jean/ReparacionAutomotriz/ReparacionAutomotriz/obj/",
+        "projectPath": "C:\\Users\\Jean\\Desktop\\campus\\skills\\j4\\ReparacionAutomotriz\\ReparacionAutomotriz\\ReparacionAutomotriz.csproj",
+        "packagesPath": "C:\\Users\\Jean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jean\\Desktop\\campus\\skills\\j4\\ReparacionAutomotriz\\ReparacionAutomotriz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/arteN01-035/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

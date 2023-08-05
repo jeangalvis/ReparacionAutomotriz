@@ -14,31 +14,31 @@ class Vehiculo
         get { return modelo; }
         set { modelo = value; }
     }
-    
+
     private string marca;
     public string Marca
     {
         get { return marca; }
         set { marca = value; }
     }
-    
+
     private string color;
     public string Color
     {
         get { return color; }
         set { color = value; }
     }
-    
+
     private int km;
     public int Km
     {
         get { return km; }
         set { km = value; }
     }
-    
+
     public Vehiculo()
     {
-        
+
     }
 
     public Vehiculo(string placa, string modelo, string marca, string color, int km)
@@ -50,7 +50,8 @@ class Vehiculo
         this.Km = km;
     }
 
-    public Vehiculo Agregar(){
+    public Vehiculo AgregarVehiculo()
+    {
         Vehiculo vehiculo = new Vehiculo();
         Console.Write("Ingrese la placa del vehiculo: ");
         vehiculo.placa = Console.ReadLine();
@@ -65,8 +66,10 @@ class Vehiculo
         return vehiculo;
     }
 
-    public void mostrarVehiculoCliente(Cliente cliente){
-        foreach (var item in cliente.Vehiculos){
+    public void mostrarVehiculoCliente(Cliente cliente)
+    {
+        foreach (var item in cliente.Vehiculos)
+        {
             Console.WriteLine(item);
         }
     }
