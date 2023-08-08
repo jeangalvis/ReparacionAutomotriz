@@ -6,6 +6,7 @@ internal class Program
     {
         int opcion = 0;
         List<Cliente> clientes = new List<Cliente>();
+        List<Empleado> empleadosList = new List<Empleado>();
         MainMenu menu = new MainMenu();
 
         do
@@ -18,6 +19,9 @@ internal class Program
                     break;
                 case 2:
                     RegistrarVehiculo(clientes);
+                    break;
+                case 3:
+                    RegistrarEmpleados(empleadosList);
                     break;
                 default:
                     break;
@@ -45,6 +49,17 @@ internal class Program
         opcionCliente = c.BuscarClientes(clientes);
         opcionVehiculo = v.AgregarVehiculo();
         opcionCliente.Vehiculos.Add(opcionVehiculo);
+        Console.WriteLine("Se registro exitosamente!");
+        Console.ReadKey();
+    }
+
+    static void RegistrarEmpleados(List<Empleado> empleadosList)
+    {
+        Empleado e = new Empleado();
+        Empleado opcionEmpleado;
+
+        opcionEmpleado = e.AgregarEmpleado();
+        empleadosList.Add(opcionEmpleado);
         Console.WriteLine("Se registro exitosamente!");
         Console.ReadKey();
     }
